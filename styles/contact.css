@@ -135,3 +135,54 @@ form#contact textarea {
 #contact-form-divider {
   margin-bottom: 3rem;
 }
+
+#contact-faq {
+  margin-top: 2rem;
+}
+
+#faq-page-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+#faq-title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 2rem;
+}
+
+.faq-expanded-section {
+  display: none;
+}
+
+.faq-expanded-section.open {
+  display: block;
+  margin-top: 1rem;
+}
+
+.faq-item-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-item button {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
