@@ -9,9 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Shopify</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <title>Shopify | Home</title>
   </head>
   <body>
     <div class="container">
@@ -19,7 +20,12 @@
         <a href="/index.html">
           <img src="public/images/logo.png" alt="Shopify" id="logo-img" />
         </a>
-        <a href="/signup.html" class="btn">Start for free</a>
+        <div class="nav-right">
+          <a href="/index.html" class="nav-link">Home</a>
+          <a href="/services.html" class="nav-link">Services</a>
+          <a href="/contact.html" class="nav-link">Contact</a>
+          <a href="/signup.html" class="btn">Start for free</a>
+        </div>
       </nav>
       <section id="hero">
         <div class="left">
@@ -29,7 +35,11 @@
             online boutique. Start free, then get 3 months for $1/month
           </p>
           <form class="hero-form">
-            <input type="email" placeholder="Enter your email address" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+            />
             <button type="submit" class="btn">Start free trial</button>
           </form>
           <p class="email-note">

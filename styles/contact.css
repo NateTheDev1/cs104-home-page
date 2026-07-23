@@ -1,0 +1,137 @@
+#contact-content {
+  padding-top: 3rem;
+}
+
+.contact-content-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-content-top h3 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.contact-content-top h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.contact-content-top p {
+  color: gray;
+  font-size: 1rem;
+}
+
+#contact-answers {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#contact-answers h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#contact-answer-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  #contact-answer-cards {
+    flex-direction: column;
+  }
+
+  .answer-card {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+}
+
+.answer-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  width: 48%;
+  height: 220px;
+}
+
+.answer-card h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.answer-card p {
+  color: gray;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.answer-card .btn {
+  width: 100%;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+
+#contact-form h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#contact-form p {
+  color: gray;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+form#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+form#contact button {
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 50px;
+  outline: none;
+  cursor: pointer;
+}
+
+form#contact label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+form#contact textarea {
+  resize: none;
+}
+
+form#contact input {
+  margin-bottom: 1rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+form#contact textarea {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  height: 200px;
+  padding: 1rem;
+}
+
+#contact-form-divider {
+  margin-bottom: 3rem;
+}
